@@ -1,7 +1,7 @@
 ---
 title: '🌟 The Fantastic World of Corgis 🌟'
 date: 'January 21 2023'
-excerpt: 'The Corgi: A diminutive yet regal canine, resplendent with charm and overflowing with exuberance'
+excerpt: 'The Corgi: A diminutive yet regal canine, resplendent with charm and overflowing with exuberance. Are you ready to know more about ... 💕'
 cover_image: '/imgs/posts/img1.png'
 ---
 

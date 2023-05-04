@@ -12,7 +12,7 @@ export default function PostPage({
   return (
     <>
       <div className="flex flex-col my-16 text-center items-center">
-        <div className="flex flex-col text-center mt-10">
+        <div className="flex flex-col orign-center text-left mt-10 max-w-xl">
           <h1 className="font-mono font-semibold text-2xl">{title}</h1>
           <div className="font-mono text-sm">Posted on {date}</div>
           <img className="rounded-[20px]" src={cover_image} alt="" />

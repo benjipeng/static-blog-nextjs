@@ -11,7 +11,7 @@ export default function Home({ posts }) {
         <title>A Static Blog</title>
       </Head>
       <div
-        className="grid gap-4 overflow-hidden items-start justify-center max-w-5xl mx-auto xl/md:items-center 
+        className="grid gap-4 overflow-hidden items-start justify-center max-w-5xl mx-auto pt-12 xl/md:items-center 
         sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2"
       >
         {posts.map((post, idx) => (

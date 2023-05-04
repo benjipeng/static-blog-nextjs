@@ -6,7 +6,7 @@ function Post({ post }) {
     <div
       className="flex flex-col rounded-3xl text-center items-center space-y-1 w-[400px] flex-shrink-0
       py-8 md:w-[500px] md:text-left
-     bg-emerald-100 opacity-50 hover:opacity-100 cursor-pointer transition-opacity duration-200"
+     bg-indigo-100 opacity-60 hover:opacity-100 cursor-pointer transition-opacity duration-200"
     >
       <img
         src={post.meta.cover_image}
