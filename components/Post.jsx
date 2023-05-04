@@ -4,10 +4,9 @@ import Link from "next/link";
 function Post({ post }) {
   return (
     <div
-      className="flex flex-col rounded-3xl text-center items-center space-y-1 w-[350px] flex-shrink-0
-      py-8 
-      md:w-[450px] md:text-left
-     bg-zinc-900 opacity-40 hover:opacity-100 cursor-pointer transition-opacity duration-200"
+      className="flex flex-col rounded-3xl text-center items-center space-y-1 w-[400px] flex-shrink-0
+      py-8 md:w-[500px] md:text-left
+     bg-emerald-100 opacity-50 hover:opacity-100 cursor-pointer transition-opacity duration-200"
     >
       <img
         src={post.meta.cover_image}

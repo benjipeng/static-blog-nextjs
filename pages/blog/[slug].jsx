@@ -11,16 +11,31 @@ export default function PostPage({
 }) {
   return (
     <>
-      <Link legacyBehavior href="/">
-        <a className="btn btn-back">Go Back</a>
-      </Link>
-      <div className="card card-page">
-        <h1 className="post-title">{title}</h1>
-        <div className="post-date">Posted on {date}</div>
-        <img src={cover_image} alt="" />
-        <div className="post-body">
-          <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
+      <div className="flex flex-col my-16 text-center items-center">
+        <div className="flex flex-col text-center mt-10">
+          <h1 className="font-mono font-semibold text-2xl">{title}</h1>
+          <div className="font-mono text-sm">Posted on {date}</div>
+          <img className="rounded-[20px]" src={cover_image} alt="" />
+          <div className="post-body">
+            <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
+          </div>
         </div>
+      </div>
+      <div className="">
+        <Link legacyBehavior href="/">
+          <div
+            className="flex flex-col text-center items-center w-full bottom-1
+            mx-5 z-20 fixed"
+          >
+            <div
+              className="flex flex-col origin-center w-1/3 rounded-2xl m-1 p-2 tracking-[7px] font-mono font-bold text-xl
+            bg-[#000000] text-blue-100 bg-opacity-40 backdrop-filter backdrop-blur-md
+            hover:opacity-100 cursor-pointer transition-opacity duration-200"
+            >
+              Go Back
+            </div>
+          </div>
+        </Link>
       </div>
     </>
   );

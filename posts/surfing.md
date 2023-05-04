@@ -29,6 +29,8 @@ _The Corgi: A diminutive yet regal canine, resplendent with charm and overflowin
 
 ## 🌺 Enchanting Surfing Destinations
 
+![image](/imgs/posts/img1.png)
+
 ### 🌅 Paradise Cove
 
 Discover the magic of long, gentle waves in this serene location.

@@ -6,13 +6,13 @@ import Post from "/components/Post";
 
 export default function Home({ posts }) {
   return (
-    <div>
+    <div className="bg-black">
       <Head>
-        <title>Static Blog</title>
+        <title>A Static Blog</title>
       </Head>
       <div
-        className="grid grid-cols-2 gap-4 overflow-hidden
-      items-start justify-between max-w-5xl mx-auto xl:items-center"
+        className="grid gap-4 overflow-hidden items-start justify-center max-w-5xl mx-auto xl/md:items-center 
+        sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2"
       >
         {posts.map((post, idx) => (
           <Post key={idx} post={post} />
