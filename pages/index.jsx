@@ -10,7 +10,10 @@ export default function Home({ posts }) {
       <Head>
         <title>Static Blog</title>
       </Head>
-      <div className="posts">
+      <div
+        className="grid grid-cols-2 gap-4 overflow-hidden
+      items-start justify-between max-w-5xl mx-auto xl:items-center"
+      >
         {posts.map((post, idx) => (
           <Post key={idx} post={post} />
         ))}

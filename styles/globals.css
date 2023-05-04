@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-* {
+/* * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -125,4 +128,25 @@ ol {
   .posts {
     grid-template-columns: 1fr;
   }
+}    */
+
+.post-body ul,
+ol {
+  font-size: 100%;
+  line-height: 18px;
+  font-weight: bold;
+  margin: 5px;
+  text-align: left;
+}
+
+.post-body pre {
+  text-align: left;
+  background: #f4f4f4;
+  line-height: 2.3;
+}
+
+.post-body {
+  margin: 10px 0;
+  padding: 20px;
+  text-align: left;
 }
