@@ -26,10 +26,10 @@ img {
 }
 
 header {
-  background: rgb(210, 98, 65);
+  background: rgb(86, 83, 82);
   color: #fff;
-  padding: 5px;
-  margin-bottom: 40px;
+  padding-left: 66px;
+  margin-bottom: 20px;
 }
 
 header a {
