@@ -1,4 +1,4 @@
-# A simple static blog
+# A simple static blog using tailwind and nextjs
 
 > This project is initiated using command `npx create-next-app .`
 > 
@@ -8,7 +8,7 @@
 npm i marked gray-matter
 ```
 
-## Some Key Steps
+## Some Additional Key Steps
 
 ***Delete `./pages/api`*** Not needed for static site.
 
